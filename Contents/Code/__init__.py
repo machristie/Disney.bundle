@@ -38,7 +38,7 @@ def Shows(title, group):
 			try: thumb = show['square2x']
 			except: 
 				try: thumb = show['square']
-				# May not have anything that can work as a logo (Camp Lakebottom)
+				# May not have anything that can work as a thumbnail (Camp Lakebottom)
 				except: thumb = None
 
 		url = show['href']
